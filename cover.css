@@ -28,6 +28,11 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  background: url('img/pink.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 body {
   color: #fff;
@@ -55,7 +60,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+    padding: 30px;
 }
 
 
